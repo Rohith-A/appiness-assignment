@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+.login-form {  
+  position: absolute;
+  left: 33%;
+  top: 20%;
+  padding: 16px 52px 55px 52px;
+  border: 1px solid gray;
+  border-radius: 15px;
+
+}
+.login-form div {
+  padding: 5px;
+}
+.login-button {
+  width: 200px;
+    background: #53c5da;
+    border: 1px solid #50c4d9;
+    padding: 6px;
+    border-radius: 12px;
+    position: absolute;
+    left: 44px;
+    top: 96px;
+    color: white;
+}
+.login-button:focus {
+  border: none !important;  
+  border: 1px solid rgb(8, 99, 8) !important;
+  border-radius: 12px !important;
+}
+.lable {
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+}
+footer {
+  margin-top: 40px;
+}
+.footer {
+  border-top: 1px solid;
+    width: 400px;
+    padding-left: 300px;
+    font-size: 10px;
+    font-family: unset;
+    color: gray;
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
+
+.headerSec {
+  margin: 10px;
+}
+.details {
+  display: inline-flex;
+  text-align: center;
+  text-shadow: darkgray;
+}
+
+h3{
+  color: black;
+}
+
+.data-grid {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 10%;
+  padding: 16px 52px 55px 52px;
+  /* border: 1px solid gray; */
+  border-radius: 15px;
+}
+.logout-button {
+  width: 200px;
+    background: #53c5da;
+    border: 1px solid #50c4d9;
+    padding: 6px;
+    border-radius: 12px;
+    margin-top: 10px;
+    position: absolute;
+    /* top: 96px; */
+    left: 79%;
+    float: right;
+    color: white;
+}
