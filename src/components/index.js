@@ -15,7 +15,6 @@ class Login extends React.Component {
         const auth = require('../assets/data/auth.json');
         if (auth[0].username === this.props.todos.email &&
             auth[0].password === this.props.todos.password) {
-            debugger
             this.props.getUsersById(auth);
             return true;
         }

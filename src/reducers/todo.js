@@ -4,10 +4,8 @@ import * as actionTypes from '../action-types'
    users: [],
  }
 const getVisibleTodos = (state = initialState, action) => {
-  debugger
     switch (action.type) {
       case actionTypes.STORE_DATA:
-        debugger
         state[action.payload.type] = action.payload.value
         return {...state};
       case actionTypes.GET_USERS:
@@ -18,7 +16,6 @@ const getVisibleTodos = (state = initialState, action) => {
         state.auth = true;
         return {...state};
       case actionTypes.LOGIN_FAILED:
-        debugger
         if (!action.payload) {
           state.loginFailed = 'login failed';
         } else {
